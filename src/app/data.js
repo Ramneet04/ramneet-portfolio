@@ -95,6 +95,12 @@ export const BtnList = [
   { label: "Projects", link: "/projects", icon: "projects", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
+    label: "X",
+    link: "https://www.x.com/code_bucks",
+    icon: "twitter",
+    newTab: true,
+  },
+  {
     label: "Github",
     link: "https://www.github.com/codebucks27",
     icon: "github",
@@ -104,12 +110,6 @@ export const BtnList = [
     label: "LinkedIn",
     link: "https://www.linkedin.com/in/codebucks",
     icon: "linkedin",
-    newTab: true,
-  },
-  {
-    label: "X",
-    link: "https://www.x.com/code_bucks",
-    icon: "twitter",
     newTab: true,
   },
   {
