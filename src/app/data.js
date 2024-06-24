@@ -1,3 +1,4 @@
+import im1 from "../../public/background/StudyNotion.png"
 /*
 Websites:
 
@@ -23,6 +24,7 @@ export const projectsData = [
     description: "Track your carbon footprint",
     date: "2022-08-15",
     demoLink: "https://ecotracker.example.com",
+    image:im1,
   },
   {
     id: 2,
@@ -52,41 +54,6 @@ export const projectsData = [
     date: "2022-07-12",
     demoLink: "https://recipefinder.example.com",
   },
-  {
-    id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
-  },
-  {
-    id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
-  },
-  {
-    id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
-  },
-  {
-    id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-  },
-  {
-    id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
-  },
 ];
 
 export const BtnList = [
@@ -102,13 +69,13 @@ export const BtnList = [
   },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://github.com/Ramneet04",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/ramneet-singh-831169295/",
     icon: "linkedin",
     newTab: true,
   },
