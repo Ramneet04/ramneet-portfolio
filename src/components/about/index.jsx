@@ -13,14 +13,14 @@ const AboutDetails = () => {
                 <Staff/>
             </RenderModel>
         </div>
-      <div className="flex md:gap-8 ">
-        <div>
+      <div className=" ">
+        <div className="flex flex-col gap-8">
         <ItemLayout
           className={
-            " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
+            ""
           }
         >
-          <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
+          <h2 className=" text-2xl md:text-3xl text-left w-full capitalize font-semibold ">
             Architect of Enchantment
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
@@ -35,9 +35,9 @@ const AboutDetails = () => {
             spells and technologies to shape the future of the web.
           </p>
         </ItemLayout>
-
-        {/* <ItemLayout
-          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
+        <div className="flex gap-8">
+        <ItemLayout
+          className={""}
         >
           <img
             className="w-full h-auto bg-transparent"
@@ -45,16 +45,17 @@ const AboutDetails = () => {
             alt="CodeBucks"
             loading="lazy"
           />
-        </ItemLayout> */}
+        </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
+        <ItemLayout>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=Ramneet04&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            src={`https://github-readme-streak-stats.herokuapp.com/?user=ramneet04&theme=transparent&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
             alt="CodeBucks"
             loading="lazy"
           />
         </ItemLayout>
+        </div>
 
         <ItemLayout className={"col-span-full"}>
           <img
