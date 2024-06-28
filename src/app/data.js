@@ -63,7 +63,7 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "X",
-    link: "https://www.x.com/code_bucks",
+    link: "https://x.com/RAMNEET004",
     icon: "twitter",
     newTab: true,
   },
